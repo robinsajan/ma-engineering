@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Contact Us - M.A Engineering</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-4 sm:px-6 md:px-8 lg:px-10 py-3">
+          <div class="flex items-center gap-2 sm:gap-4 text-[#0e141b]">
+            <!-- Company logo -->
+            <img src="static/logo.png" alt="M.A Engineering Logo" class="h-8 w-auto sm:h-10 md:h-12" />
+            <a href="main.html" class="text-[#0e141b] text-base sm:text-lg font-bold leading-tight tracking-[-0.015em]">M.A Engineering</a>
+          </div>
+          <div class="flex flex-1 justify-end gap-4 sm:gap-6 md:gap-8">
+            <div class="flex items-center gap-4 sm:gap-6 md:gap-9">
+              <a class="text-[#0e141b] text-xs sm:text-sm font-medium leading-normal" href="services.html">Services</a>
+              <a class="text-[#0e141b] text-xs sm:text-sm font-medium leading-normal" href="project.html">Projects</a>
+              <a class="text-[#0e141b] text-xs sm:text-sm font-medium leading-normal" href="about_us.html">About Us</a>
+              <a class="text-[#0e141b] text-xs sm:text-sm font-medium leading-normal" href="contact.html">Contact</a>
+            </div>
+
+          </div>
+        </header>
+        
+        <div class="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 2xl:px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#0e141b] tracking-light text-2xl sm:text-3xl md:text-[32px] font-bold leading-tight">Contact Us</p>
+                <p class="text-[#4e7397] text-xs sm:text-sm font-normal leading-normal">We're here to help. Reach out to us for any inquiries or to discuss your project needs.</p>
+              </div>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e141b] text-sm sm:text-base font-medium leading-normal pb-2">Name</p>
+                <input
+                  placeholder="Your Name"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e141b] focus:outline-0 focus:ring-0 border border-[#d0dbe7] bg-slate-50 focus:border-[#d0dbe7] h-12 sm:h-14 placeholder:text-[#4e7397] p-3 sm:p-[15px] text-sm sm:text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e141b] text-sm sm:text-base font-medium leading-normal pb-2">Email</p>
+                <input
+                  placeholder="Your Email"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e141b] focus:outline-0 focus:ring-0 border border-[#d0dbe7] bg-slate-50 focus:border-[#d0dbe7] h-12 sm:h-14 placeholder:text-[#4e7397] p-3 sm:p-[15px] text-sm sm:text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e141b] text-sm sm:text-base font-medium leading-normal pb-2">Subject</p>
+                <input
+                  placeholder="Subject"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e141b] focus:outline-0 focus:ring-0 border border-[#d0dbe7] bg-slate-50 focus:border-[#d0dbe7] h-12 sm:h-14 placeholder:text-[#4e7397] p-3 sm:p-[15px] text-sm sm:text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#0e141b] text-sm sm:text-base font-medium leading-normal pb-2">Message</p>
+                <textarea
+                  placeholder="Your Message"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0e141b] focus:outline-0 focus:ring-0 border border-[#d0dbe7] bg-slate-50 focus:border-[#d0dbe7] min-h-28 sm:min-h-36 placeholder:text-[#4e7397] p-3 sm:p-[15px] text-sm sm:text-base font-normal leading-normal"
+                ></textarea>
+              </label>
+            </div>
+            <div class="flex px-4 py-3 justify-start">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#1980e6] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Send Message</span>
+              </button>
+            </div>
+            <h2 class="text-[#0e141b] text-lg sm:text-xl md:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Location</h2>
+            <div class="flex px-4 py-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg object-cover"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD520qEtg8bBJSdUBZNYqs8IMDC0_DQ45DApi8Ih--ANmtJWPMK7Lx_oIWTXx7T-lqKFMqPbuw4iaqke9_k9l-oPhtF2slS7frGggOolYF96wv3cvGDiF9i1cdGUtXKgaHoav17q1DKntgXWVmZWtdMoy5vHc2pmRWuHH7BJ0RfhNBHl4HNjg7rlCnypT3DcvspIoH2SISQieDwQHbuegtL7qPvNDHXAXe_701azIZUmFlhSCpNFJp-3HMQ-ql2c6UFZAVzUgo_qYWG");'
+              ></div>
+            </div>
+            <div class="p-4 grid grid-cols-1 sm:grid-cols-[20%_1fr] gap-x-6">
+              <div class="col-span-1 sm:col-span-2 grid grid-cols-1 sm:grid-cols-subgrid border-t border-t-[#d0dbe7] py-5">
+                <p class="text-[#4e7397] text-xs sm:text-sm font-normal leading-normal">Address</p>
+                <p class="text-[#0e141b] text-xs sm:text-sm font-normal leading-normal">123 Innovation Drive, Tech City, CA</p>
+              </div>
+              <div class="col-span-1 sm:col-span-2 grid grid-cols-1 sm:grid-cols-subgrid border-t border-t-[#d0dbe7] py-5">
+                <p class="text-[#4e7397] text-xs sm:text-sm font-normal leading-normal">Phone</p>
+                <p class="text-[#0e141b] text-xs sm:text-sm font-normal leading-normal">(555) 123-4567</p>
+              </div>
+              <div class="col-span-1 sm:col-span-2 grid grid-cols-1 sm:grid-cols-subgrid border-t border-t-[#d0dbe7] py-5">
+                <p class="text-[#4e7397] text-xs sm:text-sm font-normal leading-normal">Email</p>
+                <p class="text-[#0e141b] text-xs sm:text-sm font-normal leading-normal">info@electrosolutions.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
